@@ -1,0 +1,19 @@
+header h1 {
+    text-align: center;
+    border-bottom: 2px solid black; 
+    padding-bottom: 5px;  
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;  
+    gap: 90px;               
+}
+
+.menu span {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
