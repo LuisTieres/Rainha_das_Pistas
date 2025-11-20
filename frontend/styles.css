@@ -1,6 +1,5 @@
 header h1 {
     text-align: center;
-    border-bottom: 2px solid black; 
     padding-bottom: 5px;  
     font-weight: bold;
 }
@@ -9,7 +8,11 @@ header h1 {
     display: flex;
     justify-content: center;  
     gap: 90px;               
+    border-top: 2px solid black;    
+    border-bottom: 2px solid black; 
+    padding: 10px 0;                
 }
+
 
 .menu span {
     font-size: large;
@@ -17,3 +20,65 @@ header h1 {
     text-align: center;
 }
 
+
+body, html {
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+.background {
+  position: fixed;    
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('pictures/tocha.png');   */  
+  background-size: cover;
+  background-position: center;
+  /*filter: blur(5px);  */   
+  z-index: -1;        
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 0;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-text {
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    border-top: 2px solid black;    
+    border-right: 2px solid black;    
+    border-left: 2px solid black;  
+    border-bottom: 2px solid black; 
+}
+
+.hitory-text {
+    max-width: 850px;
+    margin: 0 auto;  
+    background: rgba(255, 255, 255, 0.7);
+    padding: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.hitory-title{
+    font-weight: bold;
+    margin: 0 auto;  
+}
